@@ -1,0 +1,58 @@
+.skills-container {
+  margin-top: 20px;
+  color: #f2f2f2;
+  padding: 50px;
+  background-color: #282c34;
+}
+
+.skill {
+  margin-bottom: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.skill:hover {
+  width: 75%;
+  transition: 0.5s ease;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(-45deg, #ff0f7b 0%, #f89b29 100%);
+  /* background-color: #353b48; */
+  border-radius: 5px;
+  transition: width 0.5s ease;
+  animation: progressAnimation 3s ease-out;
+}
+
+.progress-percentage {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Additional styles */
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 0%;
+  }
+}

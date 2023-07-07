@@ -1,6 +1,6 @@
 .contain {
-  width: 300px;
-  height: 350px;
+  width: 270px;
+  height: 360px;
   position: relatives;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -58,6 +58,7 @@
 .card .content .heading {
   font-size: 32px;
   font-weight: 700;
+  padding-top: 15px;
 }
 
 .card:hover .content {

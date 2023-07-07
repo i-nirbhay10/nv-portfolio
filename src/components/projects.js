@@ -5,7 +5,7 @@ const Projects = (props) => {
   const { proname } = props;
   return (
     <>
-      <div className="contain container mt-5">
+      <div className="contain container my-4">
         <div className="card">
           <div className="front-content">
             <p>{proname}</p>

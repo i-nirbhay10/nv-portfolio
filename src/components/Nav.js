@@ -23,7 +23,7 @@ const Nev = () => {
                 <a
                   className="nav-link text-light  active"
                   aria-current="page"
-                  href="/"
+                  href="#section1"
                 >
                   Home
                 </a>
@@ -34,12 +34,12 @@ const Nev = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="/">
+                <a className="nav-link text-light" href="#section4">
                   Skills
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="/">
+                <a className="nav-link text-light" href="#section3">
                   Projects
                 </a>
               </li>
