@@ -1,5 +1,5 @@
 .footer {
-  background-color: #8d95ac98;
+  background-color: #282c34;
   padding: 20px;
 }
 
@@ -14,23 +14,22 @@
   /* display: flex; */
   /* align-items: center; */
   font-size: 25px;
-  color: #080808;
+  color: #007bff;
 }
 
 .contact-text a {
-  color: #080808;
+  color: #007bff;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 /* .contact-text a:hover {
-  
+  #080808;
 } */
 
 .credit {
   align-items: center;
-
-  color: #7122b7;
+  color: #f4eff8;
   padding-top: 20px;
 }
 

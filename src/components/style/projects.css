@@ -1,6 +1,6 @@
 .contain {
-  width: 270px;
-  height: 360px;
+  width: 300px;
+  height: 380px;
   position: relatives;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -50,7 +50,7 @@
   padding: 20px;
   line-height: 1.5;
   border-radius: 5px;
-  pointer-events: none;
+  /* pointer-events: none; */
   transform: translateY(96%);
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -58,7 +58,7 @@
 .card .content .heading {
   font-size: 32px;
   font-weight: 700;
-  padding-top: 15px;
+  padding-top: 5px;
 }
 
 .card:hover .content {
@@ -71,4 +71,9 @@
 
 .card:hover .front-content p {
   opacity: 0;
+}
+
+.pro-social-icons a {
+  text-decoration: none;
+  color: teal;
 }

@@ -1,0 +1,94 @@
+.contact-container {
+  text-align: center;
+  background-color: #dc2a2a1d;
+  /* margin-top: 40px; */
+}
+
+.contact-container h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #7247d029;
+  border-radius: 8px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.btn-con {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-con:hover {
+  background-color: #0056b3;
+}
+
+/* image css */
+
+.con-img-div {
+  margin: auto 0;
+}
+
+.con-image-container {
+  width: 400px; /* Set the desired width of the container */
+  height: 400px; /* Set the desired height of the container */
+  /* margin: auto auto; */
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.con-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: drop-shadow(0px 10px 20px rgba(247, 247, 247, 0.644), 0.6);
+}

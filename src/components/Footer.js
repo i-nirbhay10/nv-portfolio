@@ -8,13 +8,13 @@ const Footer = () => {
       <div className="footer-content">
         <div className="contact-info">
           <div className="contact-text">
-            <FaEnvelope className="me-3" />
+            <FaEnvelope className="me-3 text-danger" />
             <a href="nirbhayverma10@gmail.com">nirbhayverma10@gmail.com</a>
           </div>
         </div>
         <div className="contact-info">
           <div className="contact-text">
-            <FaPhone className="me-3" /> +91 8787280055
+            <FaPhone className="me-3 text-light" /> +91 8787280055
           </div>
         </div>
         <div className="credit text-center">

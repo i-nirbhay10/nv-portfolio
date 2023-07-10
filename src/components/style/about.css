@@ -1,0 +1,41 @@
+.about-container {
+  /* text-align: center; */
+  min-height: 80vh;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #32456640;
+}
+
+.about-container h4 {
+  /* font-size: 32px; */
+  text-align: center;
+  margin: 15px;
+}
+
+.about-container p {
+  font-size: 18px;
+  max-width: 800px;
+  padding-top: 40px;
+  margin-bottom: 30px;
+  text-justify: auto;
+}
+
+.about-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.about-container ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.about-container li {
+  margin-bottom: 5px;
+}
+
+.about-container strong {
+  font-weight: bold;
+}

@@ -1,9 +1,9 @@
 const Nev = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-dark ">
+      <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div className="container-fluid ">
-          <a className="navbar-brand text-light" href="/">
+          <a className="navbar-brand" href="/">
             HI, i am Nirbhay
           </a>
           <button
@@ -21,7 +21,7 @@ const Nev = () => {
             <ul className="navbar-nav ms-auto ">
               <li className="nav-item ">
                 <a
-                  className="nav-link text-light  active"
+                  className="nav-link  active"
                   aria-current="page"
                   href="#section1"
                 >
@@ -29,23 +29,23 @@ const Nev = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="/">
+                <a className="nav-link" href="/">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="#section4">
+                <a className="nav-link" href="#section4">
                   Skills
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="#section3">
+                <a className="nav-link" href="#section3">
                   Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="/">
-                  Contects
+                <a className="nav-link" href="/">
+                  Contacts
                 </a>
               </li>
             </ul>
