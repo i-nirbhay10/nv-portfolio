@@ -78,8 +78,8 @@ textarea {
 }
 
 .con-image-container {
-  width: 400px; /* Set the desired width of the container */
-  height: 400px; /* Set the desired height of the container */
+  width: 400px;
+  height: 400px;
   /* margin: auto auto; */
   border-radius: 50%;
   position: relative;

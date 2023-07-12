@@ -73,14 +73,12 @@ const Home = () => {
 
       {/* skills part */}
 
-      {/* <h4 className="text-center m-5">About Me</h4> */}
       <div>
         <About />
       </div>
 
       {/* skills part */}
 
-      {/* <h4 className="text-center m-5">My Skills</h4> */}
       <div>
         <Skill />
       </div>
@@ -102,7 +100,7 @@ const Home = () => {
             <div className=" col-lg-4 col-md-6">
               <Projects
                 proname={"Weather-app"}
-                gitlink={"https://github.com/i-nirbhay10"}
+                gitlink={"https://github.com/i-nirbhay10/weather-info"}
                 discrip={
                   "I developed a React-based weather web app that integrates with a weather API. This app provides users with real-time weather information for any location. With a sleek interface, it delivers accurate and up-to-date weather forecasts for an enhanced user experience."
                 }
@@ -111,7 +109,7 @@ const Home = () => {
             <div className=" col-lg-4 col-md-6">
               <Projects
                 proname={"News-app"}
-                gitlink={"https://github.com/i-nirbhay10"}
+                gitlink={"https://github.com/i-nirbhay10/news-app"}
                 discrip={
                   "I built a React-based news web app that leverages a news API to provide users with real-time access to diverse news articles. It offers a user-friendly interface and keeps users informed with up-to-date news from various sources."
                 }
@@ -120,7 +118,7 @@ const Home = () => {
             <div className=" col-lg-6 col-md-6">
               <Projects
                 proname={"Portfolio"}
-                gitlink={"https://github.com/i-nirbhay10"}
+                gitlink={"https://github.com/i-nirbhay10/nv-portfolio"}
                 discrip={
                   "I built my portfolio website using the MERN stack, featuring a contact form for seamless communication. With a modern and intuitive design, my portfolio showcases my skills, projects, and achievements while enabling visitors to connect with me easily."
                 }

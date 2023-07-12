@@ -25,12 +25,11 @@ const Skill = () => {
     );
   };
 
-  // Define skills and their corresponding progress percentages
   const skillsData = [
     { skill: "React", progress: 90 },
     { skill: "Node", progress: 80 },
     { skill: "MongoDb", progress: 75 },
-    { skill: "JavaScript", progress: 75 },
+    { skill: "JavaScript", progress: 80 },
     { skill: "HTML", progress: 90 },
     { skill: "CSS", progress: 80 },
     { skill: "JSON", progress: 84 },
@@ -40,14 +39,13 @@ const Skill = () => {
     { skill: "Redux js", progress: 84 },
     { skill: "Context APIs", progress: 90 },
     { skill: "Frent-End-Development", progress: 80 },
-    { skill: "Back-End-Development", progress: 75 },
+    { skill: "Back-End-Development", progress: 80 },
     { skill: "Databases", progress: 84 },
     { skill: "NO-SQL", progress: 90 },
     { skill: "C Language", progress: 80 },
     { skill: "C++", progress: 75 },
-    { skill: "Object oreanted programming", progress: 84 },
+    { skill: "Object oreanted programming", progress: 60 },
     { skill: "python programming", progress: 49 },
-    // Add more skills as needed
   ];
 
   return (
