@@ -1,11 +1,11 @@
 // import "./App.css";
 import Home from "./components/Home";
-import Nev from "./components/Nav";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <>
-      <Nev />
+      <Nav />
       <Home />
     </>
   );

@@ -18,9 +18,7 @@ const Contact = () => {
     setIsSubmitting(true);
     const { name, email, message } = data;
     try {
-      console.log(data);
-
-      const res = await fetch("/contact", {
+      const res = await fetch("http://localhost:5000/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -51,9 +49,6 @@ const Contact = () => {
     <>
       <div className="contact-container py-4">
         <h2>Contact Me</h2>
-        <h2>
-          {data.email} {data.message} {data.name}
-        </h2>
         <div className="d-md-flex justify-content-around my-5">
           {/* image */}
           <div className="d-none d-md-block con-img-div">

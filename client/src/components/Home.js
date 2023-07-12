@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="home-main-div">
+      <div className="home-main-div" id="home">
         <div className="flex-main-style ">
           <div className="intro-div m-auto">
             <h1>Hi, I am Nirbhay Verma</h1>
@@ -71,27 +71,25 @@ const Home = () => {
         {/* eslint-disable-next-line */}
       </div>
 
-      {/* skills part */}
+      {/* about part */}
 
-      <div>
+      <div id="about">
         <About />
       </div>
+      {/* skill part */}
 
-      {/* skills part */}
-
-      <div>
+      <div id="skills">
         <Skill />
       </div>
 
-      {/* project part */}
-      <h4 className="text-center p-5 ">My projects</h4>
-      <section id="section3">
+      <div id="project">
+        <h4 className="text-center p-5 ">My projects</h4>
         <div className="find">
           <div className="row">
             <div className=" col-lg-4 col-md-6 ">
               <Projects
                 proname={"Mern-app"}
-                gitlink={"https://github.com/i-nirbhay10"}
+                gitlink={"https://github.com/i-nirbhay10/MERN_Project"}
                 discrip={
                   "I created a MERN web app with signup and signin functionality. Users can securely register and login, providing their information. The app then creates a personalized dashboard, allowing users to access and manage their data efficiently."
                 }
@@ -135,11 +133,16 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <div>
+      {/* contect part */}
+
+      <div id="contact">
         <Contact />
       </div>
+
+      {/* footer part */}
+
       <div>
         <Footer />
       </div>

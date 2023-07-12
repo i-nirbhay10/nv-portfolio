@@ -1,11 +1,23 @@
-const Nev = () => {
+import { Link } from "react-scroll";
+import "./style/nav.css";
+
+const Nav = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <nav
+        className="navbar fixed-top navbar-expand-lg bg-dark"
+        data-bs-theme="dark"
+      >
         <div className="container-fluid ">
-          <a className="navbar-brand" href="/">
-            HI, i am Nirbhay
-          </a>
+          <Link
+            className="text-light nav-link active"
+            to="home"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+          >
+            Hi, i am Nirbhay
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -20,33 +32,62 @@ const Nev = () => {
           <div className="collapse navbar-collapse " id="navbarNav">
             <ul className="navbar-nav ms-auto ">
               <li className="nav-item ">
-                <a
-                  className="nav-link  active"
-                  aria-current="page"
-                  href="#section1"
+                <Link
+                  className="cursor-pointer nav-link active"
+                  to="home"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                {/* <a className="nav-link" href="/">
                   About
-                </a>
+                </a> */}
+                <Link
+                  className="cursor-pointer nav-link active"
+                  to="about"
+                  // activeClass="active"
+                  spy={true}
+                  smooth={true}
+                >
+                  About
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#section4">
+                <Link
+                  className="cursor-pointer nav-link active"
+                  to="skills"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                >
                   Skills
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#section3">
+                <Link
+                  className="cursor-pointer nav-link active"
+                  to="project"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                >
                   Projects
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Contacts
-                </a>
+                <Link
+                  className="cursor-pointer nav-link active"
+                  to="contact"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
@@ -56,4 +97,4 @@ const Nev = () => {
   );
 };
 
-export default Nev;
+export default Nav;

@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import "./style/skills.css";
 
 const Skill = () => {
@@ -25,6 +25,12 @@ const Skill = () => {
     );
   };
 
+  const [showMore, setShowMore] = useState(false);
+
+  const toggleShowMore = () => {
+    setShowMore(!showMore);
+  };
+
   const skillsData = [
     { skill: "React", progress: 90 },
     { skill: "Node", progress: 80 },
@@ -48,13 +54,15 @@ const Skill = () => {
     { skill: "python programming", progress: 49 },
   ];
 
+  const visibleSkills = showMore ? skillsData : skillsData.slice(0, 8);
+
   return (
     <>
-      <section id="section4">
+      
         <div className="skills-container">
           <h2 className="text-center">Skills</h2>
           <div className="row">
-            {skillsData.map((item, index) => (
+            {visibleSkills.map((item, index) => (
               <div className="col-md-4" key={index}>
                 <div className="skill">
                   <Skillsdisplay name={item.skill} percent={item.progress} />
@@ -62,8 +70,24 @@ const Skill = () => {
               </div>
             ))}
           </div>
+          {!showMore && (
+            <button
+              onClick={toggleShowMore}
+              className="show-more-button ms-auto"
+            >
+              Show More
+            </button>
+          )}
+          {showMore && (
+            <button
+              onClick={toggleShowMore}
+              className="show-more-button ms-auto"
+            >
+              Show Less
+            </button>
+          )}
         </div>
-      </section>
+      
     </>
   );
 };
