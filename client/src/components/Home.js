@@ -8,13 +8,7 @@ import { BsGithub, BsFillEnvelopeAtFill, BsLinkedin } from "react-icons/bs";
 import "./style/home.css";
 
 const Home = () => {
-  const texts = [
-    "Full-stack Web Developer",
-    "problem solver",
-    "coder",
-    "and",
-    "kind hearted person",
-  ];
+  const texts = ["Full-stack Web Developer", "problem solver", "and", "coder"];
 
   const getresume = () => {
     const url = "/myresume.pdf";
@@ -53,7 +47,6 @@ const Home = () => {
                 <a href="https://github.com/i-nirbhay10" target="blank">
                   <BsGithub className="m-2 fs-1 text-light " />
                 </a>
-                {/* https://nirbhayverma10@gmail.com  */}
                 <a href="mailto:nirbhayverma10@gmail.com" target="blank">
                   <BsFillEnvelopeAtFill className="m-2 fs-1 text-danger" />
                 </a>

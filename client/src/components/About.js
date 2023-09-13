@@ -37,7 +37,8 @@ const About = () => {
           <strong>Programming in python</strong> - Nielit (2018)
         </li>
         <li>
-          <strong>Communication Skill</strong> - Tata Canceltent Services (2022)
+          <strong>Communication Skills</strong> - Tata Counsultancy Services
+          (2022)
         </li>
       </ul>
     </div>

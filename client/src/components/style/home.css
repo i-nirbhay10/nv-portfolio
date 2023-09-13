@@ -5,15 +5,16 @@
 .find {
   background-color: #282c34;
   align-items: center;
+  width: 100%;
 }
 
 .home-main-div {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  width: 100%;
   color: white;
-  /* margin: auto 0; */
-  /* padding: 50px; */
-  padding-top: 80px;
+  margin-top: 54px;
+  padding: 70px 0px;
   /* align-items: center; */
   /* justify-content: center; */
 }

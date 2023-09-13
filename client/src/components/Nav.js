@@ -15,6 +15,8 @@ const Nav = () => {
             activeClass="active"
             spy={true}
             smooth={true}
+            offset={-50}
+            duration={400}
           >
             Hi, i am Nirbhay
           </Link>
@@ -33,58 +35,64 @@ const Nav = () => {
             <ul className="navbar-nav ms-auto ">
               <li className="nav-item ">
                 <Link
-                  className="cursor-pointer nav-link active"
+                  className="nav-link active"
                   to="home"
                   activeClass="active"
                   spy={true}
                   smooth={true}
+                  offset={-50}
+                  duration={400}
                 >
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                {/* <a className="nav-link" href="/">
-                  About
-                </a> */}
                 <Link
-                  className="cursor-pointer nav-link active"
+                  className="nav-link active"
                   to="about"
-                  // activeClass="active"
                   spy={true}
                   smooth={true}
+                  offset={-50}
+                  duration={400}
                 >
                   About
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  className="cursor-pointer nav-link active"
+                  className="nav-link active"
                   to="skills"
                   activeClass="active"
                   spy={true}
                   smooth={true}
+                  offset={-50}
+                  duration={400}
                 >
                   Skills
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  className="cursor-pointer nav-link active"
+                  className="nav-link active"
                   to="project"
                   activeClass="active"
                   spy={true}
                   smooth={true}
+                  offset={-50}
+                  duration={400}
                 >
                   Projects
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  className="cursor-pointer nav-link active"
+                  className="nav-link active"
                   to="contact"
                   activeClass="active"
                   spy={true}
                   smooth={true}
+                  offset={-50}
+                  duration={400}
                 >
                   Contact
                 </Link>
