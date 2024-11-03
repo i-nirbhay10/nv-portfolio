@@ -4,8 +4,8 @@
 }
 .find {
   background-color: #282c34;
-  align-items: center;
-  width: 100%;
+  /* align-items: center; */
+  /* width: 100%; */
 }
 
 .home-main-div {
@@ -20,7 +20,7 @@
 }
 
 .intro-div p {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .flex-main-style {
@@ -51,8 +51,8 @@
 }
 
 .image-container {
-  width: 300px;
-  height: 300px;
+  max-width: 300px;
+  max-height: 300px;
   margin: auto;
   border-radius: 50%;
   position: relative;

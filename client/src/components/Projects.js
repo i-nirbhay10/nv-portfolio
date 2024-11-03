@@ -2,23 +2,19 @@ import "./style/projects.css";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Projects = (props) => {
-  const { proname, gitlink, discrip } = props;
+  const { proname, gitlink, discrip, linkedinlink } = props;
   return (
     <>
       <div className="contain container my-4">
         <div className="card">
           <div className="front-content">
-            <p>{proname}</p>
+            <p className="text-center">{proname}</p>
           </div>
           <div className="content">
-            <p className="heading">{proname}</p>
+            <p className="heading text-center">{proname}</p>
             <p>{discrip}</p>
             <div className="pro-social-icons">
-              <a
-                href="https://www.linkedin.com/in/nirbhay-verma-441695217/"
-                target="blank"
-                rel="social-link"
-              >
+              <a href={linkedinlink} target="blank" rel="social-link">
                 <BsLinkedin className="mx-2 fs-3 text-primary" />
               </a>
 
